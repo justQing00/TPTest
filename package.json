@@ -1,0 +1,22 @@
+{
+  "name": "tptest",
+  "version": "1.0.0",
+  "description": "for typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justQing00/TPTest.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justQing00/TPTest/issues"
+  },
+  "homepage": "https://github.com/justQing00/TPTest#readme"
+}
