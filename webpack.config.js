@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: "./app/index.tsx",
@@ -28,6 +29,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: './app/views/index.ejs'
-    })
-  ]  
+    }),
+    new CopyWebpackPlugin([
+      { from: './app/images', to: 'images' }
+    ]),
+  ]
 };
