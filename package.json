@@ -4,7 +4,7 @@
   "description": "for typescript",
   "main": "index.js",
   "scripts": {
-    "test": "watch"
+    "watch": "rm -rf public && webpack --progress --color -w -d"
   },
   "dependencies": {
     "react": "^15.3.2",
@@ -16,6 +16,8 @@
     "typescript": "^2.0.9",
     "ts-loader": "^1.2.0",
     "source-map-loader": "^0.1.5",
+    "html-webpack-plugin": "^2.24.1",
+    "copy-webpack-plugin": "^4.0.1",
     "webpack": "^2.1.0-beta.25"
   },
   "repository": {
